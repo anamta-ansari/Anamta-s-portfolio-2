@@ -50,7 +50,7 @@ export default function Home() {
 
         <div className="mx-auto flex items-center justify-center flex-col px-4 text-center w-full h-full pt-24">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold animate-pulse">
-            Hello I' am
+            Hey I am
           </h1>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl mt-3 font-bold text-amber-400 border-r-2 border-white pr-2 whitespace-nowrap overflow-hidden animate-blink">

@@ -2,6 +2,7 @@
 import { FaFacebook, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   const texts = [
@@ -65,30 +66,30 @@ export default function Home() {
 
           {/* social icon div start here */}
           <div className="flex gap-4 sm:gap-6 mt-6 flex-wrap justify-center">
-            <a
+            <Link
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFacebook className="text-[#ffb703] text-3xl sm:text-[42px] hover:text-[#fb8500] animate-pulse transition" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.linkedin.com/in/anamta-ansari-a117552b5/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin className="text-[#ffb703] text-3xl sm:text-[42px] hover:text-[#fb8500] animate-pulse  transition" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://github.com/anamta-ansari?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub className="text-[#ffb703] text-3xl sm:text-[42px] hover:text-[#fb8500] animate-pulse  transition" />
-            </a>
-            <a href="mailto:anamtaansarii123@gmail.com">
+            </Link>
+            <Link href="mailto:anamtaansarii123@gmail.com">
               <FaEnvelope className="text-[#ffb703] text-3xl sm:text-[42px] hover:text-[#fb8500] animate-pulse transition" />
-            </a>
+            </Link>
           </div>
           {/* social icon div ended */}
         </div>
@@ -337,14 +338,14 @@ export default function Home() {
                         A Python project demonstrating automation, data processing,
                         and smart algorithms.
                       </p>
-                      <a
+                      <Link
                         href="https://github.com/anamta-ansari?tab=repositories"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-[#ffb703] text-white px-4 py-2 rounded hover:bg-[#fb8500] transition"
                       >
                         View Project
-                      </a>
+                      </Link>
                     </div>
                   </div>
       
@@ -364,14 +365,14 @@ export default function Home() {
                         A Python project demonstrating automation, data processing,
                         and smart algorithms.
                       </p>
-                      <a
+                      <Link
                         href="https://github.com/anamta-ansari?tab=repositories"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-[#ffb703] text-white px-4 py-2 rounded hover:bg-[#fb8500] transition"
                       >
                         View Project
-                      </a>
+                      </Link>
                     </div>
                   </div>
       
@@ -391,14 +392,14 @@ export default function Home() {
                         A Python project demonstrating automation, data processing,
                         and smart algorithms.
                       </p>
-                      <a
+                      <Link
                         href="https://github.com/anamta-ansari?tab=repositories"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-[#ffb703] text-white px-4 py-2 rounded hover:bg-[#fb8500] transition"
                       >
                         View Project
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

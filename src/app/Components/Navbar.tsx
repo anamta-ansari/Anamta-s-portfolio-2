@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,16 +15,16 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-10">
           <li className="hover:text-yellow-300 hover:underline text-[18px]">
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li className="hover:text-yellow-300 hover:underline text-[18px]">
-            <a href="/About">About</a>
+            <Link href="/About">About</Link>
           </li>
           <li className="hover:text-yellow-300 hover:underline text-[18px]">
-            <a href="/projects">projects</a>
+            <Link href="/projects">projects</Link>
           </li>
           <li className="hover:text-yellow-300 hover:underline text-[18px]">
-            <a href="/Skills">Skills</a>
+            <Link href="/Skills">Skills</Link>
           </li>
         </ul>
 
@@ -41,16 +42,16 @@ export default function Navbar() {
         <div className="md:hidden bg-gray-400 px-5 py-4 text-black">
           <ul className="flex flex-col gap-3">
             <li className="bg-black/10 px-4 py-2 rounded-md shadow-md transition hover:text-yellow-300">
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li className="bg-black/10 px-4 py-2 rounded-md shadow-md transition hover:text-yellow-300">
-              <a href="/About">About</a>
+              <Link href="/About">About</Link>
             </li>
             <li className="bg-black/10 px-4 py-2 rounded-md shadow-md transition hover:text-yellow-300">
-              <a href="/projects">projects</a>
+              <Link href="/projects">projects</Link>
             </li>
             <li className="bg-black/10 px-4 py-2 rounded-md shadow-md transition hover:text-yellow-300">
-              <a href="/Skills">Skills</a>
+              <Link href="/Skills">Skills</Link>
             </li>
           </ul>
         </div>

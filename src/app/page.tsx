@@ -1,7 +1,6 @@
 "use client";
 import { FaFacebook, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import SkillsComponent from "./Components/Skills"
 import ProjectComponent from "./Components/Project"

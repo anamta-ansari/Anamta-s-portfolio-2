@@ -12,7 +12,7 @@ export default function About() {
                 Who I am
               </h1>
               <p className="text-sm sm:text-base mt-5 leading-relaxed">
-                I’m a passionate Web Developer and SEO Expert with a growing
+                I am a passionate Web Developer and SEO Expert with a growing
                 specialization in Data Science. My work lies at the intersection
                 of technology, data, and intelligent systems, where I
                 continuously explore how emerging technologies can transform
@@ -25,7 +25,7 @@ export default function About() {
                 From crafting responsive, user-focused websites to optimizing
                 their visibility through advanced SEO strategies, I bring a
                 blend of creativity and analytical thinking to every project.
-                Now, with my journey into Data Science, I’m expanding my
+                Now, with my journey into Data Science, I am expanding my
                 skillset to include data analysis, machine learning, and
                 AI-driven development. My goal is to create intelligent web
                 applications that are not only functional but also powered by

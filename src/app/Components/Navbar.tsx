@@ -39,18 +39,18 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-400 px-5 py-4 text-black">
+        <div className="md:hidden bg-[#20202000] shadow-md px-5 py-4 text-white">
           <ul className="flex flex-col gap-3">
-            <li className="bg-black/10 px-4 py-2 rounded-md shadow-md transition hover:text-yellow-300">
+            <li className=" px-4 py-2 transition hover:text-yellow-300">
               <Link href="/">Home</Link>
             </li>
-            <li className="bg-black/10 px-4 py-2 rounded-md shadow-md transition hover:text-yellow-300">
+            <li className=" px-4 py-2  transition hover:text-yellow-300">
               <Link href="/About">About</Link>
             </li>
-            <li className="bg-black/10 px-4 py-2 rounded-md shadow-md transition hover:text-yellow-300">
+            <li className=" px-4 py-2  transition hover:text-yellow-300">
               <Link href="/projects">projects</Link>
             </li>
-            <li className="bg-black/10 px-4 py-2 rounded-md shadow-md transition hover:text-yellow-300">
+            <li className=" px-4 py-2 shadow-md transition hover:text-yellow-300">
               <Link href="/Skills">Skills</Link>
             </li>
           </ul>
